@@ -1,0 +1,6 @@
+.idea/
+.claude/
+memory/
+.DS_Store
+build/
+dist/

@@ -1,0 +1,120 @@
+*PPD-Adobe: "4.3"
+*%% Intermec EasyCoder PF8t - CUPS PPD
+*%% Protocol: ESim v7.x (P/N 937-011-xxx)
+*%% Resolution: 203 dpi (8 dots/mm)
+
+*FormatVersion: "4.3"
+*FileVersion: "1.1"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+
+*PCFileName: "INTPF8T.PPD"
+*Manufacturer: "Intermec"
+*Product: "(Intermec EasyCoder PF8t)"
+*ModelName: "Intermec EasyCoder PF8t"
+*NickName: "Intermec EasyCoder PF8t 203dpi"
+*ShortNickName: "Intermec PF8t"
+*PSVersion: "(3010.000) 0"
+
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "4"
+
+*cupsFilter: "application/vnd.cups-raster 100 rastertointermec"
+
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI: "<</HWResolution[203 203]>>setpagedevice"
+
+*OpenUI *ColorModel/Color Mode: PickOne
+*DefaultColorModel: Gray
+*ColorModel Gray/Grayscale: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0>>setpagedevice"
+*CloseUI: *ColorModel
+
+*DefaultPageSize: Label_100x50
+*DefaultPageRegion: Label_100x50
+*DefaultImageableArea: Label_100x50
+*DefaultPaperDimension: Label_100x50
+
+*PageSize Label_100x50/100 x 50 mm: "<</PageSize[283 142]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_100x50/100 x 50 mm: "<</PageSize[283 142]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_100x50/100 x 50 mm: "0 0 283 142"
+*PaperDimension Label_100x50/100 x 50 mm: "283 142"
+
+*PageSize Label_100x70/100 x 70 mm: "<</PageSize[283 198]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_100x70/100 x 70 mm: "<</PageSize[283 198]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_100x70/100 x 70 mm: "0 0 283 198"
+*PaperDimension Label_100x70/100 x 70 mm: "283 198"
+
+*PageSize Label_80x50/80 x 50 mm: "<</PageSize[227 142]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_80x50/80 x 50 mm: "<</PageSize[227 142]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_80x50/80 x 50 mm: "0 0 227 142"
+*PaperDimension Label_80x50/80 x 50 mm: "227 142"
+
+*PageSize Label_60x40/60 x 40 mm: "<</PageSize[170 113]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_60x40/60 x 40 mm: "<</PageSize[170 113]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_60x40/60 x 40 mm: "0 0 170 113"
+*PaperDimension Label_60x40/60 x 40 mm: "170 113"
+
+*PageSize Label_60x30/60 x 30 mm: "<</PageSize[170 85]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_60x30/60 x 30 mm: "<</PageSize[170 85]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_60x30/60 x 30 mm: "0 0 170 85"
+*PaperDimension Label_60x30/60 x 30 mm: "170 85"
+
+*PageSize Label_50x30/50 x 30 mm: "<</PageSize[142 85]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_50x30/50 x 30 mm: "<</PageSize[142 85]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_50x30/50 x 30 mm: "0 0 142 85"
+*PaperDimension Label_50x30/50 x 30 mm: "142 85"
+
+*PageSize Label_50x25/50 x 25 mm: "<</PageSize[142 71]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_50x25/50 x 25 mm: "<</PageSize[142 71]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_50x25/50 x 25 mm: "0 0 142 71"
+*PaperDimension Label_50x25/50 x 25 mm: "142 71"
+
+*PageSize Label_40x40/40 x 40 mm: "<</PageSize[113 113]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_40x40/40 x 40 mm: "<</PageSize[113 113]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_40x40/40 x 40 mm: "0 0 113 113"
+*PaperDimension Label_40x40/40 x 40 mm: "113 113"
+
+*PageSize Label_40x30/40 x 30 mm (30x40): "<</PageSize[113 85]/HWResolution[203 203]>>setpagedevice"
+*PageRegion Label_40x30/40 x 30 mm (30x40): "<</PageSize[113 85]/HWResolution[203 203]>>setpagedevice"
+*ImageableArea Label_40x30/40 x 30 mm (30x40): "0 0 113 85"
+*PaperDimension Label_40x30/40 x 30 mm (30x40): "113 85"
+
+*CustomPageSize True: "<</PageSize[5 -2 roll]/HWResolution[203 203]>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 18 595
+*ParamCustomPageSize Height: 2 points 18 7128
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+
+*OpenUI *PrintSpeed/Print Speed: PickOne
+*DefaultPrintSpeed: Speed2
+*PrintSpeed Speed2/2 ips (50 mm/s): ""
+*PrintSpeed Speed3/3 ips (75 mm/s): ""
+*PrintSpeed Speed4/4 ips (100 mm/s): ""
+*CloseUI: *PrintSpeed
+
+*OpenUI *Darkness/Darkness: PickOne
+*DefaultDarkness: Darkness15
+*Darkness Darkness5/Light (5): ""
+*Darkness Darkness8/Medium-light (8): ""
+*Darkness Darkness10/Medium (10): ""
+*Darkness Darkness12/Medium-dark (12): ""
+*Darkness Darkness15/Dark (15): ""
+*CloseUI: *Darkness
+
+*OpenUI *PrintMode/Print Mode: PickOne
+*DefaultPrintMode: ThermalTransfer
+*PrintMode DirectThermal/Direct thermal: ""
+*PrintMode ThermalTransfer/Thermal transfer: ""
+*CloseUI: *PrintMode
+
+*OpenUI *AutoContrast/Auto Contrast: PickOne
+*DefaultAutoContrast: Off
+*AutoContrast Off/Off: ""
+*AutoContrast Light/Light (k=4): ""
+*AutoContrast Medium/Medium (k=6): ""
+*AutoContrast Strong/Strong (k=10): ""
+*CloseUI: *AutoContrast
